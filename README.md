@@ -16,21 +16,79 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Chart Libraries Comparison (In order of preference)
 
-## Learn More
+## Victory
+Website: [https://commerce.nearform.com/open-source/victory](https://commerce.nearform.com/open-source/victory)
++ React package
++ Open source
++ Box and scatter plot (and many more)
++ Built-in selection tool
++ Great documentation
++ Very customizable
++ Built on top of D3
 
-To learn more about Next.js, take a look at the following resources:
+## eCharts
+Website: [https://echarts.apache.org](https://echarts.apache.org)
++ Open source
+- JS package
++ Good wrapper
++ Built-in scatter and box plot
++ Built-in select tool
++ Ease of use
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ApexCharts
+Website: [https://apexcharts.com/](https://apexcharts.com/)
++ React package
++ Open source
++ Box and scatter plot (and many more)
++ Built-in selection tool
++ Good documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## D3
+Website: [https://d3js.org/](https://d3js.org/)
+- JS package
+- Requires more work
++ Open source
++ Used by VisFlow ([https://visflow.org/](https://visflow.org/))
++ Highly customizable
 
-## Deploy on Vercel
+## Nivo
+Website: [https://nivo.rocks/](https://nivo.rocks/)
++ React package
++ Open source
++ Box and scatter plot (and many more)
++ Amazing documentation (built-in editor)
++ Built on top of D3
+- No built-in selection tool
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Highcharts
+Website: [https://www.highcharts.com](https://www.highcharts.com)
+- Not open source (paid license)
+- Poor React documentation
++ React (wrapper)
++ Built-in select
++ Built-in Scatter, Box plots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## React-Charts
+Website: [https://react-charts.tanstack.com/](https://react-charts.tanstack.com/)
++ Open source
++ React package
+- In beta
+- No box plot
+- Bad documentation
+
+## Chartjs
+Website: [https://www.chartjs.org/](https://www.chartjs.org/)
++ Open source
+- JS package
+- Bad react wrapper documentation
+
+## Recharts
+Website: [https://recharts.org/](https://recharts.org/)
++ React package
++ Open source
+- No box plot
+- Outdated documentation
+
